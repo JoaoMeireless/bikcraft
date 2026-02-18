@@ -13,9 +13,8 @@ a {
 
 .header-bg {
   background-color: #000000;
-  /* padding: 20px 0;
-  text-align: center; */
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -23,8 +22,14 @@ a {
   padding: 20px;
   box-sizing: border-box;
   max-width: 1200px;
+  margin: 0 auto;
 }
 .header-menu {
   display: flex;
   gap: 20px;
+}
+.header-menu a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 16px 0px;
 }
