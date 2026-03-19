@@ -8,7 +8,9 @@ ul,
 h2,
 h3,
 h4,
-p {
+dd,
+p,
+blockquote {
   margin: 0;
 }
 ul {
@@ -21,8 +23,12 @@ a {
 }
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 img[src$=".jpg"] {
   border-radius: 4px;
+}
+:root {
+  --padding: 120px;
 }
